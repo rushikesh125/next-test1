@@ -21,12 +21,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-300`}
       >
         <nav className="flex  w-full justify-center bg-black text-white gap-2">
           <Link className="hover:bg-white hover:text-black my-2 px-4 py-1" href="/">Home</Link>
           <Link className="hover:bg-white hover:text-black my-2 px-4 py-1" href="/aboutus">About</Link>
-          <Link className="hover:bg-white hover:text-black my-2 px-4 py-1" href="/aboutus/aboutone">Aboutone</Link>
+          <Link className="hover:bg-white hover:text-black my-2 px-4 py-1" href="/products">Products</Link>
         </nav>
         {children}
       </body>

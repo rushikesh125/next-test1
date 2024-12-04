@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      filter: {
+        'remove-white': 'brightness(0) saturate(100%) invert(100%) contrast(100%)',
+      },
     },
   },
   plugins: [],
