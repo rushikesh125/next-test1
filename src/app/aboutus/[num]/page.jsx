@@ -1,11 +1,11 @@
 "use client"
 import React from 'react'
 import { useParams } from 'next/navigation'
-const page = () => {
+const Page = () => {
     const {num} = useParams();
   return (
-    <div>page no : {num}</div>
+    <div>Page no : {num}</div>
   )
 }
 
-export default page
+export default Page
